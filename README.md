@@ -1,6 +1,6 @@
 ## Guess the Number
 🚀 See the result here :
-👉 [Mini Weather App](https://vinnnervin.github.io/guess-the-number)
+👉 [Guess the Number](https://vinnnervin.github.io/guess-the-number)
 
 
 ###  Project Information
