@@ -1,0 +1,167 @@
+:root {
+    font-size: 12px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(90, 192, 233);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    outline: none;
+    border: none;
+    font-size: large;
+    padding: 5px 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.game-container {
+    background-color: white;
+    min-width: 90%;
+    height: 50svh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 30px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    font-size: large;
+    margin: 20px 0;
+}
+
+.input label {
+    width: max-content;
+}
+
+.input input {
+    font-size: large;
+    height: 40px;
+    width: 80%;
+    padding: 0 10px;
+    outline: none;
+}
+
+.desc {
+    font-size: large;
+    border: 3px solid rgb(198, 251, 204);
+    padding: 5px;
+    background-color: #a1f7b7;
+    border-radius: 5px;
+    font-weight: 100;
+}
+
+.changes {
+    font-size: large;
+    margin: 10px 0;
+    text-align: center;
+    color: gray;
+}
+
+.diff-desc {
+    font-size: medium;
+    margin: 10px 0;
+    font-style: italic;
+    text-align: end;
+}
+
+.hit {
+    margin: 15px 0;
+    background-color: rgb(255, 100, 100);
+}
+
+.hit:hover {
+    background-color: rgb(220, 79, 79);
+}
+
+.difficult {
+    background-color: blueviolet;
+}
+
+.difficult:hover {
+    background-color: rgb(119, 41, 193);
+}
+
+.difficult-menu {
+    visibility: hidden;
+    /* background-color: rgba(0, 0, 0, 0.35); */
+    backdrop-filter: blur(5px);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list-diff {
+    padding: 10px;
+    display: flex;
+    width: 50%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-diff :nth-child(1) {
+    background-color: rgb(0, 255, 140);
+}
+
+.list-diff :nth-child(2) {
+    background-color: rgb(79, 91, 255);
+}
+
+.list-diff :nth-child(3) {
+    background-color: rgb(253, 168, 50);
+}
+
+.list-diff :nth-child(4) {
+    background-color: rgb(255, 50, 50);
+}
+
+.list-diff :nth-child(5) {
+    background-color: rgb(75, 186, 24);
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+}
+
+.list-diff>*:hover {
+    filter: brightness(90%);
+
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number guesser</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="input">
+            <label for="number">guess the number: </label>
+            <input autofocus id="number" class="inputNum" placeholder="type a number" type="number">
+        </div>
+        <p class="desc">chose number beetwen 0 - 100</p>
+        <button class="hit">Hit !</button>
+        <button class="difficult">change difficult</button>
+        <p class="changes">you have 10 changes left</p>
+        <p class="diff-desc">difficult easy </p>
+    </div>
+
+    <div class="difficult-menu">
+        <div class="list-diff">
+            <button value="easy">Easy ⭐</button>
+            <button value="medium">Medium 😎</button>
+            <button value="hard">Hard 🥵</button>
+            <button value="extreme">Extreme 💀</button>
+            <p class="cancel">cancel</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
