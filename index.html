@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <title>number guesser</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <div class="game-container">
@@ -14,24 +15,21 @@
             <label for="number">guess the number: </label>
             <input autofocus id="number" class="inputNum" placeholder="type a number" type="number">
         </div>
-        <p class="desc">chose number beetwen 0 - 100</p>
+        <p class="desc"></p>
         <button class="hit">Hit !</button>
-        <button class="difficult">change difficult</button>
-        <p class="changes">you have 10 changes left</p>
-        <p class="diff-desc">difficult easy </p>
+        <button class="difficult">ubah level</button>
+        <p class="changes"></p>
+        <p class="diff-desc"></p>
     </div>
 
     <div class="difficult-menu">
         <div class="list-diff">
-            <button value="easy">Easy ⭐</button>
-            <button value="medium">Medium 😎</button>
-            <button value="hard">Hard 🥵</button>
-            <button value="extreme">Extreme 💀</button>
-            <p class="cancel">cancel</p>
         </div>
     </div>
 
-    <script src="js/main.js"></script>
 
+    <script src="js/main.js"></script>
+    <script src="js/utility.js"></script>
 </body>
+
 </html>
